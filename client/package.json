@@ -4,6 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "axios": "^0.18.0",
     "node-quickbooks": "^2.0.23",
     "react": "^16.2.0",
     "react-datepicker": "^1.7.0",
