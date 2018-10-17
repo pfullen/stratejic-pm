@@ -9,11 +9,11 @@ const Header = () => (
       <div className="navbar-header col-md-12">
         <a href="/" className="navbar-brand">
           
-          <img id="logo" height="45" alt="BlueberryLogo" src= {Logo} />
+          <h1 className="my-logo">   Stratéjic, LLC   </h1>
 
         </a>
         
-        <p className="navbar-text2 navbar-left tag-line" >The Antioxidant for your Financial Life</p>
+        <p className="navbar-text2 navbar-left tag-line" >Project Manager</p>
         
           <span className="glyphicon glyphicon-cog " id ="gear" />
         

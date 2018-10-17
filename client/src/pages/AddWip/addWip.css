@@ -1,0 +1,111 @@
+.myCheckbox {
+	width: 100px;
+	color: white;
+}
+.ui.checkbox label:hover {
+	color: orange;
+}
+
+.ui.checkbox.myCheckbox label {
+	color: orange;
+}
+
+
+#memo
+ {
+	color: black                                                               ;
+}
+
+h2 {
+	color: orange;
+}
+
+.myContainer {
+	background-color: #1b2e6d;
+	border-radius: 5px;
+	padding: 15px 25px;
+	color: white;
+	margin: auto 0;
+	border: 2px solid black;
+	margin-bottom: 125px;
+
+}
+
+.ui.myContainer {
+	width: 50%;
+}
+
+.ui.checkbox label{
+	color: white;
+}
+
+.ui.form .field>label {
+	color: white;
+}
+
+div .row {
+	height: 100px;
+}
+
+ .field#date{
+	width: 250px;
+	margin-right: 60px;
+}
+
+.ui.labeled.input>.label 
+ {
+ 	color: darkblue;
+ }
+
+.field#client{ 
+	width: 250px;
+	margin-right: 60px;
+ }
+
+
+.select {
+	width: 175px;
+ }
+
+#submit {
+	background-color: lightgray;
+	color: darkblue;
+}
+
+.react-date-picker {
+	z-index: 1;
+	color: black;
+}
+
+.ui.label.login-date {
+	color: darkblue;
+	padding-top: 10px;
+	margin-right: 0;
+	font-size: 1em;
+	border-radius: 0;
+	border-radius: .28571429rem 0 0 .28571429rem;
+	margin-left: 7px;
+	flex: 0 0 auto;
+}
+
+.ui.form input[type=text] {
+	border-radius: 0 ;
+	width: 180px;
+	
+}
+
+input { 
+width: 130px;
+ }
+
+ .dropdown.status {
+ 	margin-left: 69px;
+ }
+
+ #memo {
+ 	width: 475px;
+ }
+
+ .ui.form #project-type {
+ 	margin-left: 5px;
+ }

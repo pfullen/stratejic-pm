@@ -9,7 +9,7 @@ import { leaf } from 'react-icons-kit/icomoon/leaf';
 //specify the base color/background of the parent container if needed 
 const Sidebar = () => (
     <div style={{
-        background: '#312581', color: '#FFFF',
+        background: '#315a9b', color: 'white',
         width: 250,
         height: 1800,
         marginLeft:-20,
@@ -34,20 +34,20 @@ const Sidebar = () => (
             <Nav id='/Companies' className="appNav">
                 <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
 
-                <NavText > My Companies </NavText>
+                <NavText > Clients </NavText>
             </Nav>
-            <Nav id='/AddCompany' className="appNav">
+            <Nav id='/phone' className="appNav">
                 <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
-                <NavText> Add Company </NavText>
+                <NavText> Phone/email </NavText>
             </Nav>
-            <Nav id='/Orders' className="appNav">
+            <Nav id='/Wip' className="appNav">
                 <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
-                <NavText> Orders </NavText>
+                <NavText> WIP </NavText>
             </Nav>
 
-            <Nav id='/Reports' className="appNav">
+            <Nav id='/ToDo' className="appNav">
                 <NavIcon><SvgIcon size={20} icon={leaf}/></NavIcon>
-                <NavText> Reports </NavText>
+                <NavText> ToDo </NavText>
             </Nav>
         </SideNav>
     </div>

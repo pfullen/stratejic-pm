@@ -50,6 +50,7 @@ class AddCompany extends Component {
 
 	handleFormSubmit = event => {
 		event.preventDefault();
+		alert(this.state.companyName);
 		if (
 			this.state.tin &&
 			this.state.companyName &&

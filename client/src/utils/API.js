@@ -16,25 +16,28 @@ export default {
   },
   // Saves a company to the database
   saveCompany: function(companyData) {
+    console.log(companyData);
     return axios.post("/api/companies", companyData);
   },
 
-   // Vendor API Calls
-   // Get all vendors
-  getVendors: function() {
-    return axios.get("/api/vendors/");
+   // Project API Calls
+   // Get all Projects
+  getProjects: function() {
+    console.log(axios.get("/api/projects"))
+    return axios.get("/api/projects/");
   },
-  // Gets the vendor with the given id
-  getVendor: function(id) {
-    return axios.get("/api/vendors/" + id );
+  // Gets the project with the given id
+  getProject: function(id) {
+    return axios.get("/api/projects/" + id );
   },
-  // Deletes the vendor with the given id
-  deleteVendor: function(id) {
-    return axios.delete("/api/vendors/" + id);
+  // Deletes the project with the given id
+  deleteProject: function(id) {
+    return axios.delete("/api/projects/" + id);
   },
-  // Saves a vendor to the database
-  saveVendor: function(vendorData, companyId) {
-    return axios.post("/api/vendors", vendorData);
+  // Saves a project to the database
+  saveProject: function(projectData) {
+    console.log(projectData);
+    return axios.post("/api/projects", projectData);
   },
 
 

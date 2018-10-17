@@ -14,3 +14,9 @@ color: white;
 .myjumbotron#main {
 	height: 650px;
 }
+
+.container-fluid {
+	
+	margin-bottom: 10px;
+	height: 775px;
+}

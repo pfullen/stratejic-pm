@@ -1,13 +1,31 @@
 .navbar-default {
 
 
-	background-color: #FFFFFF;
+	background-color: #204879;
 	text-align: center;
 	width: 100%;
-	text margin-top: 25px;
+	margin-top: 25px;
 	font-family: 'Alegreya';
+	color: white;
+	height: 0px;
 
+}
 
+.my-logo{
+
+color: darkorange;
+font-family: impact;
+
+}
+
+.navbar-header {
+	
+}
+
+.navbar {
+	border: 0px;
+	border-radius: 0;	
+	margin-top: 0;
 }
 
 #gear {
@@ -15,13 +33,13 @@
 float: right;
 margin-top: 15px;
 
-color: #6F6999;
+color: white;
 
 font-size: 32px;
 }
 
 .tag-line {
-	color: #312581;
+	color: white;
 	margin-top: 15px;
 	margin-left: 200px;
 	font-size: 25px;
