@@ -1,0 +1,38 @@
+{
+  "name": "blueberryappclient",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "import": "^0.0.6",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "node-quickbooks": "^2.0.23",
+    "rc-datepicker": "^5.0.13",
+    "react": "^16.3.2",
+    "react-date-picker": "^6.10.1",
+    "react-datepicker": "^1.4.1",
+    "react-dates": "^16.6.1",
+    "react-dom": "^16.3.2",
+    "react-icons-kit": "^1.0.7",
+    "react-pdf": "^2.5.3",
+    "react-pdf-js": "^3.0.7",
+    "react-radio-buttons": "^1.2.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.4",
+    "react-select-us-states": "^0.1.2",
+    "react-sidenav": "^2.1.2",
+    "react-signup-login-component": "^1.2.0",
+    "react-table": "^6.8.6",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

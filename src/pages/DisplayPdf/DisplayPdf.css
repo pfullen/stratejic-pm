@@ -1,0 +1,31 @@
+#pdf {
+
+}
+
+.pdfform {
+	background-image: url("2017-1099-MISC.jpg");
+	background-repeat: none;
+	
+	height: 600px;
+	width: 183%;
+	margin-left: -75px;
+
+}
+
+.company-name {
+	padding: 55px;
+}
+
+div.vendor-name  {
+		
+	padding-top: 40px;
+	font-size: 25px;
+	
+}
+
+table {
+	width: 100%;
+}
+.amount {
+  margin-left: 75px;
+}
